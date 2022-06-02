@@ -22,7 +22,7 @@ Existe até um *outlier* na Metragem que inviabiliza a apresentação do *boxplo
 
 # Adicionando dados relevantes para a análise
 Um tipo de dado que poderia ajudar compreender os preços dos imóveis é de características econômicas do local. O curso ofereceu o presente [gist](https://gist.githubusercontent.com/tgcsantos/85f8c7b0a2edbc3e27fcad619b37d886/raw/a4954781e6bca9cb804062a3eea0b3b84679daf4/Basico_SP1.csv) de dados do Censo 2010 do IBGE, com o presente [dicionario](https://drive.google.com/file/d/1WVTqfKtHOOk5X1AWaSOn6NLaO7cix2m4/view). O desafio é conseguir relacionar os endereços com os setores censitários para ter as informações econômicas do local.
-Uma primeira opção, menos trabalhosa, porém menos precisa, é relacionar o nome de bairros e distritos. O problema é que a base apresenta uma quantidade de nome de bairros muito distinta da relação oficial de distritos no município de São Paulo. Então muitas linhas se perdem ao tentar fazer essa relação, e perdemos na variabilidade de dados de renda (que são os dados observados do Censo aqui).
+Uma primeira opção, menos trabalhosa, porém menos precisa, é relacionar o nome de bairros e distritos. O problema é que a base apresenta uma quantidade de nome de bairros muito distinta da relação oficial de distritos no município de São Paulo. Então muitas linhas se perdem ao tentar fazer essa relação, e perdemos na variabilidade de dados de renda (que são os dados observados do Censo aqui). Utilizando `sns.scatterplot()`:
 
 ![image](https://user-images.githubusercontent.com/99848777/171516049-133ab197-7d9e-4c75-a0d8-7f31e7deb51e.png)
 
