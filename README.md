@@ -16,7 +16,7 @@ Observa-se que a grande maioria dos imóveis do *dataframe* se encontra na faixa
 
 ![image](https://user-images.githubusercontent.com/99848777/171511074-95c3beee-04a7-4ec3-a30d-ffcdda04403b.png)
 
-Existe até um *outlier* na Metragem que inviabiliza a apresentação do *boxplot*. São *outliers* também identificáveis quando cruzamos alguns dados, como a distribuição do preço do metro quadrado em relação à quantidade de banheiros do imóveil:
+Existe até um *outlier* na Metragem que inviabiliza a apresentação do *boxplot*. São *outliers* também identificáveis quando cruzamos alguns dados, como a distribuição do preço do metro quadrado em relação à quantidade de quartos do imóveil:
 
 ![image](https://user-images.githubusercontent.com/99848777/171511689-9987f163-14aa-4e3f-a900-56fb15774fdb.png)
 
